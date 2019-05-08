@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esercitazione HTML+CSS</title>
+    <link rel="stylesheet" type="text/css" href="stile.css"/>
+    <script type="text/javascript" src="stile.js"></script>
+  </head>
+  <body>
+    <h1><b>CALCOLATRICE</b></h1>
+    <h2>By Simone Nardi</h2>
+    <div id="schermo">
+      </div>
+      <table>
+        <tr>
+                <th class="abled"><input type="button" value="1" onclick="risoluzione(1);" /></th>
+                <th class="abled"><input type="button" value="2" onclick="risoluzione(2);" /></th>
+                <th class="abled"><input type="button" value="3" onclick="risoluzione(3);" /></th>
+                <th class="abled"><input type="button" value="+" onclick="risoluzione('+');" /></th>
+                <th class="abled"><input type="button" value="-" onclick="risoluzione('-');" /></th>
+        </tr>
+        <tr>
+                <th class="abled"><input type="button" value="4" onclick="risoluzione(4);" /></th>
+                <th class="abled"><input type="button" value="5" onclick="risoluzione(5);" /></th>
+                <th class="abled"><input type="button" value="6" onclick="risoluzione(6);" /></th>
+                <th class="abled"><input type="button" value="*" onclick="risoluzione('*');" /></th>
+                <th class="abled"><input type="button" value="/" onclick="risoluzione('/');" /></th>
+        </tr>
+        <tr>
+                <th class="abled"><input type="button" value="7" onclick="risoluzione(7);" /></th>
+                <th class="abled"><input type="button" value="8" onclick="risoluzione(8);" /></th>
+                <th class="abled"><input type="button" value="9" onclick="risoluzione(9);" /></th>
+                <th class="abled"><input type="button" value="." onclick="risoluzione('.');" /></th>
+                <th class="abled"><input type="button" value="=" onclick="risoluzione('=');" /></th>
+        </tr>
+        <tr>
+                <th></th>
+                <th class="abled"><input type="button" value="0" onclick="risoluzione(0);" /></th>
+                <th></th>
+                <th ROWSPAN="2"><input type="button" value="canc" onclick="risoluzione('canc');" /></th>
+
+        </tr>
+      </table>
+
+  </body>
+</html>
